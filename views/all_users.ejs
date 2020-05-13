@@ -1,0 +1,23 @@
+<%-include('home')-%>
+
+<div class="container">
+    <div>
+        <table class="table table-striped">
+            <tr>
+              <th>Name</th>
+              <th>email</th>
+              <th>phone Number</th>
+            </tr>
+        <% for(var i=0;i<users.length;i++){%>
+            <tr>
+               <td><%=users[i].name%></td>
+               <td><%=users[i].email%></td>
+             <td><%=users[i].phone%></td>
+             </tr>
+       <%}%>  
+        </table>   
+    </div>
+</div>
+
+</body>
+</html>
