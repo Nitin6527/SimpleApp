@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
- mongoose.connect('mongodb://localhost:27017/SimpleApp', {
+ mongoose.connect('mongodb+srv://Nitin:nitin@cluster0-x2gkl.mongodb.net/SimpleApp', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
